@@ -20,12 +20,16 @@ sources:
 
 # {name}
 
-_{title} at {company}, {country}_
+_{#if title} {title} {:else}Works{/if} {#if company}@ {company}{/if}{#if country}, {country}{/if}_
 
 
+
+{#if bio}
 ## Bio
 
 {bio}
+
+{/if}
 
 {#if presentation_url}
 
@@ -33,6 +37,6 @@ _{title} at {company}, {country}_
 
 [Link to slides]({presentation_url})
 
-<iframe src="{presentation_url}/embed" width="100%" height="500px"></iframe>
+<iframe src="{presentation_url}" title=slides width="100%" height="360px"></iframe>
 
 {/if}

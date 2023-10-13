@@ -3,12 +3,12 @@ sources:
 - speakers.sql
 ---
 
+# Speakers
+
+Click on a speaker to see details about them and their talks.
 
 
-# Coalesce Speakers
-
-
-<DataTable data={speakers} rows=all link=speaker_id>
+<DataTable data={speakers} rows=all link=speaker_id search>
     <Column id=first_name />
     <Column id=last_name />
     <Column id=title />

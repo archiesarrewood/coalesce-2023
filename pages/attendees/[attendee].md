@@ -23,7 +23,7 @@ sources:
 
 # {name}
 
-_{title} at {company}, {country}_
+_{#if title} {title} {:else}Works{/if} {#if company}@ {company}{/if}{#if country}, {country}{/if}_
 
 {#if linkedin != "" && linkedin != null}
 

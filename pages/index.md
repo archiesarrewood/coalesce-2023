@@ -12,7 +12,7 @@ Welcome to the Coalesce 2023 - San Diego.
 This site is written using just SQL and markdown. Source code [on GitHub](https://github.com/evidence-dev/coalesce-2023).
 
 
-<img src="wordmark-gray-800.png" class="h-10 my-2 inline"/> 
+## <img src="wordmark-gray-800.png" alt=Evidence class="h-10 my-2 inline"/> 
 
 _Evidence is an open source, code-based alternative to drag-and-drop BI tools. Build polished data products with just SQL and markdown._
 
