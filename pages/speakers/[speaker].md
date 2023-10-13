@@ -12,6 +12,8 @@ sources:
     const title = speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0].title;
     const country = speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0].country;
     const bio = speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0].bio;
+    const linkedin = speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0].linkedin;
+    const twitter = speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0].twitter;
     const presentation_url = speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0].presentation_url;
 </script>
 
@@ -21,6 +23,22 @@ sources:
 # {name}
 
 _{#if title} {title} {:else}Works{/if} {#if company}@ {company}{/if}{#if country}, {country}{/if}_
+
+{#if linkedin != "" && linkedin != null}
+
+    <a href="{linkedin}">
+        <img src="/linkedin.png" alt="LinkedIn" class="h-8 rounded-none inline pr-4">
+    </a>
+
+{/if}
+
+{#if twitter != "" && twitter != null}
+
+<a href=https://twitter.com/{twitter}>
+    <img src="/x.png" alt="X" class="h-8 rounded-none inline">
+</a>
+
+{/if}
 
 
 

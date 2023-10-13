@@ -12,7 +12,9 @@ sources:
     const country = attendees.filter(attendee => attendee.attendee_id == $page.params.attendee)[0].country;
     const linkedin = attendees.filter(attendee => attendee.attendee_id == $page.params.attendee)[0].linkedin;
     const twitter = attendees.filter(attendee => attendee.attendee_id == $page.params.attendee)[0].twitter;
+    const website = attendees.filter(attendee => attendee.attendee_id == $page.params.attendee)[0].website;
     const summary = attendees.filter(attendee => attendee.attendee_id == $page.params.attendee)[0].summary;
+
 </script>
 
 
@@ -25,10 +27,16 @@ sources:
 
 _{#if title} {title} {:else}Works{/if} {#if company}@ {company}{/if}{#if country}, {country}{/if}_
 
+{#if website != "" && website != null}
+
+[{website}]({website})
+
+{/if}
+
 {#if linkedin != "" && linkedin != null}
 
     <a href="{linkedin}">
-        <img src="/linkedin.png" alt="LinkedIn" class="h-8 rounded-none inline px-4">
+        <img src="/linkedin.png" alt="LinkedIn" class="h-8 rounded-none inline pr-4">
     </a>
 
 {/if}

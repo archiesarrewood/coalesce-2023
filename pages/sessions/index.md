@@ -5,6 +5,8 @@ sources:
 
 # Sessions
 
+Select an session to view details.
+
 ## 16th Oct - Monday
 
 <DataTable data={sessions.filter(session => session.start_datetime > '2023-10-16' && session.start_datetime < '2023-10-17' )} rows=all link=id>
@@ -15,7 +17,7 @@ sources:
 
 ## 17th Oct - Tuesday
 
-<DataTable data={sessions.filter(session => session.start_datetime > '2023-10-17' && session.start_datetime < '2023-10-18' )} rows=all >
+<DataTable data={sessions.filter(session => session.start_datetime > '2023-10-17' && session.start_datetime < '2023-10-18' )} rows=all link=id>
 <Column id=start_datetime fmt='dd-mmm HH:MM'/>
 <Column id=title/>
 <Column id=description/>
@@ -23,7 +25,7 @@ sources:
 
 ## 18th Oct - Wednesday
 
-<DataTable data={sessions.filter(session => session.start_datetime > '2023-10-18' && session.start_datetime < '2023-10-19' )} rows=all >
+<DataTable data={sessions.filter(session => session.start_datetime > '2023-10-18' && session.start_datetime < '2023-10-19' )} rows=all link=id>
 <Column id=start_datetime fmt='dd-mmm HH:MM'/>
 <Column id=title/>
 <Column id=description/>
@@ -31,7 +33,7 @@ sources:
 
 ## 19th Oct - Thursday
 
-<DataTable data={sessions.filter(session => session.start_datetime > '2023-10-19' && session.start_datetime < '2023-10-20' )} rows=all >
+<DataTable data={sessions.filter(session => session.start_datetime > '2023-10-19' && session.start_datetime < '2023-10-20' )} rows=all link=id>
 <Column id=start_datetime fmt='dd-mmm HH:MM'/>
 <Column id=title/>
 <Column id=description/>
