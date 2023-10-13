@@ -2,7 +2,9 @@
 
 Welcome to the Coalesce 2023 - San Diego.
 
+Find conference info, which events you want to attend, and other people at the conference.
 
+- [Conference Info](conference-info)
 - [Attendees](attendees)
 - [Speakers](speakers)
 - [Sessions](sessions)
