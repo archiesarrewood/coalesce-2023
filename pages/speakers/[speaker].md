@@ -12,7 +12,7 @@ sources:
 
 # {speaker.first_name} {speaker.last_name} 
 
-_{#if speaker.title} {speaker.title} {:else}Works{/if} {#if speaker.company}@ {speaker.company}{/if}{#if speaker.country}, {speaker.country}{/if}_
+_{#if speaker.title} {speaker.title} {:else if speaker.company}Works{/if} {#if speaker.company}@ {speaker.company}{/if}{#if speaker.country}, {speaker.country}{/if}_
 
 {#if speaker.linkedin != "" && speaker.linkedin != null}
 
@@ -29,8 +29,6 @@ _{#if speaker.title} {speaker.title} {:else}Works{/if} {#if speaker.company}@ {s
 </a>
 
 {/if}
-
-
 
 {#if speaker.bio}
 ## Bio

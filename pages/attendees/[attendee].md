@@ -11,7 +11,7 @@ sources:
 
 # {attendee.first_name} {attendee.last_name}
 
-_{#if attendee.title} {attendee.title} {:else}Works{/if} {#if attendee.company}@ {attendee.company}{/if}{#if attendee.country}, {attendee.country}{/if}_
+_{#if attendee.title} {attendee.title} {:else if attendee.company}Works{/if} {#if attendee.company}@ {attendee.company}{/if}{#if attendee.country}, {attendee.country}{/if}_
 
 {#if attendee.website != "" && attendee.website != null}
 
