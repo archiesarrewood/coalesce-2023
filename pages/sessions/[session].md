@@ -5,15 +5,12 @@ sources:
 ---
 
 <script>
-const title = sessions.filter(session => session.id == $page.params.session)[0].title;
-const start_datetime = sessions.filter(session => session.id == $page.params.session)[0].start_datetime;
-const description = sessions.filter(session => session.id == $page.params.session)[0].description;
-const description_html = sessions.filter(session => session.id == $page.params.session)[0].descriptionHtml;
-const speaker1_id = sessions.filter(session => session.id == $page.params.session)[0].speaker_1_id;
-const speaker2_id = sessions.filter(session => session.id == $page.params.session)[0].speaker_2_id;
-const speaker3_id = sessions.filter(session => session.id == $page.params.session)[0].speaker_3_id;
-const speaker4_id = sessions.filter(session => session.id == $page.params.session)[0].speaker_4_id;
-const speaker5_id = sessions.filter(session => session.id == $page.params.session)[0].speaker_5_id;
+const session=sessions.filter(session => session.id == $page.params.session)[0]
+const speaker1_id = session.speaker_1_id;
+const speaker2_id = session.speaker_2_id;
+const speaker3_id = session.speaker_3_id;
+const speaker4_id = session.speaker_4_id;
+const speaker5_id = session.speaker_5_id;
 const speaker1_name = speakers.filter(speaker => speaker.speaker_id == speaker1_id)[0]?.first_name + " " + speakers.filter(speaker => speaker.speaker_id == speaker1_id)[0]?.last_name;
 const speaker2_name = speakers.filter(speaker => speaker.speaker_id == speaker2_id)[0]?.first_name + " " + speakers.filter(speaker => speaker.speaker_id == speaker2_id)[0]?.last_name;
 const speaker3_name = speakers.filter(speaker => speaker.speaker_id == speaker3_id)[0]?.first_name + " " + speakers.filter(speaker => speaker.speaker_id == speaker3_id)[0]?.last_name;
@@ -21,16 +18,16 @@ const speaker4_name = speakers.filter(speaker => speaker.speaker_id == speaker4_
 const speaker5_name = speakers.filter(speaker => speaker.speaker_id == speaker5_id)[0]?.first_name + " " + speakers.filter(speaker => speaker.speaker_id == speaker5_id)[0]?.last_name;
 </script>
 
-# {title}
+# {session.title}
 
 
-**Time:** {fmt(start_datetime, "dddd dd-mmm HH:mmAM/PM")}
+**Time:** {fmt(session.start_datetime, "dddd dd-mmm HH:mmAM/PM")}
 
-{#if description_html}
+{#if session.descriptionHtml}
 
 ## Description
 
-{@html description_html}
+{@html session.descriptionHtml}
 
 {/if}
 
