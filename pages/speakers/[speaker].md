@@ -7,6 +7,7 @@ sources:
     const speaker=speakers.filter(speaker => speaker.speaker_id == $page.params.speaker)[0]
 </script>
 
+{#if speaker}
 
 <img src="{speaker.photo_url}" alt="{speaker.first_name} {speaker.last_name}" class="rounded-full inline p-3 h-48">
 
@@ -44,5 +45,7 @@ _{#if speaker.title} {speaker.title} {:else if speaker.company}Works{/if} {#if s
 [Link to slides]({speaker.presentation_url})
 
 <iframe src="{speaker.presentation_url}" title=slides width="100%" height="360px"></iframe>
+
+{/if}
 
 {/if}
