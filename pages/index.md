@@ -9,6 +9,7 @@ Find conference info, which events you want to attend, and other people at the c
 - [Speakers](speakers)
 - [Sessions](sessions)
 - [Social Events](social-events) + signup links
+- [Local Recommendations](local-recommendations)
 
 ## About this site
 
