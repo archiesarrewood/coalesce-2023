@@ -1,6 +1,6 @@
-# Coalesce 2023 Planner by Evidence
+# Coalesce 2023 Planner
 
-Welcome to the Coalesce 2023 - San Diego.
+Welcome to Coalesce 2023 - San Diego.
 
 Find conference info, which events you want to attend, and other people at the conference.
 

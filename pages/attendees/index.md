@@ -6,27 +6,6 @@ sources:
 
 # Attendees
 
-## Directory
-
-Meet someone and can't remember their name? Find them here!
-
-N.B. only attendees who have opted in to the attendee list are shown.
-
-<DataTable data={attendees} rows=10 search link=attendee_id>
-    <Column id=photo_url contentType=image height=20px title=" "/>
-    <Column id=first_name/>
-    <Column id=last_name/>
-    <Column id=company/>
-    <Column id=title/>
-    <Column id=country/>
-    <Column id=state/>
-    <Column id=linkedin contentType=link/>
-    <Column id=twitter/>
-    <Column id=website contentType=link/>
-    <Column id=summary/>
-</DataTable>
-
-## Attendee Stats
 
 ```sql number_of_attendees
 SELECT count(*) as number_of_attendees
@@ -48,17 +27,42 @@ where company IS NOT NULL AND company != '-' AND company != '' AND company != 'N
 <BigValue
     data={number_of_attendees}
     value=number_of_attendees
+    title="# Attendees"
 />
 
 <BigValue
     data={number_of_countries}
     value=number_of_countries
+    title="# Countries"
 />
 
 <BigValue
     data={number_of_companies}
     value=number_of_companies
+    title="# Companies"
 />
+
+## Directory
+
+Meet someone and can't remember their name? Find them here!
+
+N.B. only attendees who have opted in to the attendee list are shown.
+
+<DataTable data={attendees} rows=10 search link=attendee_id>
+    <Column id=photo_url contentType=image height=20px title=" "/>
+    <Column id=first_name/>
+    <Column id=last_name/>
+    <Column id=company/>
+    <Column id=title/>
+    <Column id=country/>
+    <Column id=state/>
+    <Column id=linkedin contentType=link/>
+    <Column id=twitter/>
+    <Column id=website contentType=link/>
+    <Column id=summary/>
+</DataTable>
+
+## Attendee Stats
 
 
 
