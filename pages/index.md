@@ -1,8 +1,8 @@
-# Coalesce 2023 Planner
+# Unofficial Coalesce 2023 Planner
 
-Welcome to Coalesce 2023 - San Diego.
+_Welcome to Coalesce 2023 - San Diego._
 
-Find conference info, which events you want to attend, and other people at the conference.
+Find official 😇 _and unofficial_ 😈 conference info, events to attend, and other people at the conference.
 
 - [Conference Info](conference-info)
 - [Attendees](attendees)
@@ -13,7 +13,9 @@ Find conference info, which events you want to attend, and other people at the c
 
 ## About this site
 
-This site is written using just SQL and markdown. Source code [on GitHub](https://github.com/evidence-dev/coalesce-2023).
+This is an open source site is written in SQL and markdown. 
+
+[View on GitHub](https://github.com/evidence-dev/coalesce-2023) | [Edit on GitHub](https://github.com/evidence-dev/coalesce-2023/edit/main/pages/index.md)
 
 
 ## <img src="wordmark-gray-800.png" alt=Evidence class="h-10 my-2 inline"/> 
