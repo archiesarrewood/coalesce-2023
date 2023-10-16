@@ -3989,6 +3989,22 @@
   {
     "accountId": 183217,
     "eventId": 433222,
+    "userProfileId": 17561826,
+    "photoUrl": "https://bizzabo-demo-res.cloudinary.com/image/upload/v1687331655/venue/Avatar_10_majq9i.png",
+    "firstName": "Archie",
+    "lastName": "Sarre Wood",
+    "company": "Evidence",
+    "title": "Head of Community",
+    "country": "CA",
+    "linkedinId": "https://www.linkedin.com/in/archiesarrewood/",
+    "twitterHandle": "archieemwood",
+    "web": "https://evidence.dev/",
+    "isHidden": false,
+    "lifecycle": "ONBOARDED"
+  },
+  {
+    "accountId": 183217,
+    "eventId": 433222,
     "userProfileId": 33550910,
     "photoUrl": "https://bizzabo-demo-res.cloudinary.com/image/upload/v1687331655/venue/Avatar_8_pnfzby.png",
     "firstName": "Ariel",

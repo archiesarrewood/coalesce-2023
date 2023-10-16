@@ -8,6 +8,7 @@ Find conference info, which events you want to attend, and other people at the c
 - [Attendees](attendees)
 - [Speakers](speakers)
 - [Sessions](sessions)
+- [Social Events](social-events) + signup links
 
 ## About this site
 

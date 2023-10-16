@@ -28,6 +28,40 @@ N.B. only attendees who have opted in to the attendee list are shown.
 
 ## Attendee Stats
 
+```sql number_of_attendees
+SELECT count(*) as number_of_attendees
+FROM read_json_auto('sources/attendees.json')
+```
+
+```sql number_of_countries
+SELECT count(distinct country) as number_of_countries
+FROM read_json_auto('sources/attendees.json')
+where country != ''
+```
+
+```sql number_of_companies
+SELECT count(distinct trim(lower(company))) as number_of_companies
+FROM read_json_auto('sources/attendees.json')
+where company IS NOT NULL AND company != '-' AND company != '' AND company != 'N/A'
+```
+
+<BigValue
+    data={number_of_attendees}
+    value=number_of_attendees
+/>
+
+<BigValue
+    data={number_of_countries}
+    value=number_of_countries
+/>
+
+<BigValue
+    data={number_of_companies}
+    value=number_of_companies
+/>
+
+
+
 ```sql attendees_by_country
 WITH country_groups AS (
     SELECT 
@@ -71,7 +105,7 @@ SELECT
     trim(first(company)) as company_name,
     count(*) as attendees,
 FROM read_json_auto('sources/attendees.json')
-where company IS NOT NULL AND company != '-' AND company != ''
+where company IS NOT NULL AND company != '-' AND company != '' AND company != 'N/A'
 GROUP by trim(lower(company))
 ORDER BY attendees DESC
 ```
