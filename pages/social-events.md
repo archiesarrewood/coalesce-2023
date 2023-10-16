@@ -3,9 +3,12 @@ sources:
 - sessions.sql
 ---
 
-# Social Events
+# Coalesce 2023 Social Events
 
-There are various social events during the conference. Some require advance signup - follow the links below to sign up.
+_[Add events to this page on GitHub](https://github.com/evidence-dev/coalesce-2023/edit/main/pages/social-events.md)._
+
+There are various social events during the conference. Some vendor run events require advance signup - follow the links below.
+
 
 ```sql social_events
 select *,
@@ -14,6 +17,9 @@ from ${sessions}
 where contains(title, '🎉') or contains(title, 'party')
 ```
 
+
+<!--  add social events manually below, here -->
+
 ## FLOAT Happy Hour
 
 **Mon 16-Oct 6:30 - 9:30 PM**
@@ -21,6 +27,9 @@ where contains(title, '🎉') or contains(title, 'party')
 Hard Rock Hotel Rooftop
 
 Sign up: https://learn.metaplane.dev/float-happy-hour
+
+
+<!--  in coalesce social events -->
 
 {#each social_events as event}
 
