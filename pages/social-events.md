@@ -19,6 +19,9 @@ where contains(title, '🎉') or contains(title, 'party')
 
 <!--  add social events manually below, here -->
 
+test add
+
+
 ## FLOAT Happy Hour
 
 **Mon 16-Oct 6:30 - 9:30 PM**
