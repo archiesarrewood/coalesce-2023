@@ -34,19 +34,25 @@ WITH country_groups AS (
         count(*) as attendees,
         country, 
         CASE 
-            WHEN COUNT(*) <= 4 THEN 'Other Countries'
+            WHEN COUNT(*) <= 10 THEN 'Other Countries'
             ELSE country 
-        END AS country_grouped
+        END AS country_grouped,
+        CASE 
+            WHEN COUNT(*) <= 10 THEN 0
+            else count(*)
+        END AS country_grouped_count
     FROM read_json_auto('sources/attendees.json')
     GROUP BY country
 )
 
 SELECT 
     country_grouped, 
+    country_grouped_count,
     sum(attendees) AS attendees
 FROM country_groups
-GROUP BY country_grouped
-ORDER BY attendees DESC
+WHERE country_grouped != ''
+GROUP BY 1,2
+ORDER BY 2 DESC
 ```
 
 <BarChart
@@ -54,6 +60,7 @@ ORDER BY attendees DESC
     data={attendees_by_country}
     x=country_grouped
     y=attendees
+    sort=false
     swapXY
 />
 
@@ -61,14 +68,15 @@ ORDER BY attendees DESC
 
 ```sql attendees_by_company
 SELECT 
-    trim(first(company)) as company_clean,
+    trim(first(company)) as company_name,
     count(*) as attendees,
 FROM read_json_auto('sources/attendees.json')
+where company IS NOT NULL AND company != '-' AND company != ''
 GROUP by trim(lower(company))
 ORDER BY attendees DESC
 ```
 
-<DataTable data={attendees_by_company}/>
+<DataTable data={attendees_by_company} search/>
 
 ### Attendees by Title
 
