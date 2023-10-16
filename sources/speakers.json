@@ -8,7 +8,6 @@
     "country": "GB",
     "bio": "Alex Higgs is a Senior Data Engineer at Datavault and is the Lead Developer and Product Manager of AutomateDV (previously known as dbtvault), a dbt package which provides Data Vault 2.0 compliant templates for rapid development and automation of Data Warehouse solutions. Alex has been developing solutions to help business thrive, including orchestration, testing and security for the last 6 years. Alex specialises in Python, dbt, Snowflake, CI/CD and all things testing. ",
     "personId": 14568235,
-    "web": "https://docs.google.com/presentation/d/1F53IGJRip7vB2b2ndneJ6s43TaW4nQY4sDcK7sh0fn4/edit?usp=sharing",
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1687531817/lyszsr83qbsc1qtjg8st.jpg",
     "eventId": 433222,
     "created": "2023-06-23T14:50:19.000+00:00",
@@ -22,10 +21,11 @@
   },
   {
     "id": 3082249,
-    "firstname": "Moss ",
+    "firstname": "Moss",
     "lastname": "Pauly",
     "title": "Senior Manager Data Products",
-    "company": "Zip Co",
+    "company": "Zip",
+    "country": "AU",
     "bio": "Moss is responsible for the user experience of Zip's Data Platform, balancing tradeoffs and optimising the variety of workflows used by the various data teams at Zip. When he's not thinking about people's experiences using data, you'll find him surfing or spearfishing somewhere around Sydney, Australia.",
     "personId": 12455935,
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1689269949/vtikyfhcceciohee1gqq.jpg",
@@ -36,7 +36,8 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/vtikyfhcceciohee1gqq.jpg",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/vtikyfhcceciohee1gqq.jpg",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/vtikyfhcceciohee1gqq.jpg"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3070987,
@@ -236,7 +237,8 @@
     "firstname": "Misaki",
     "lastname": "Sumikura",
     "title": "Data Engineer",
-    "company": "SHE inc.",
+    "company": "SHE inc",
+    "country": "JP",
     "bio": "Based in Tokyo,Japan. Misaki built her career as a data engineer and project manager. Mainly, Misaki focuses on data for marketing and career placement service.",
     "personId": 18371186,
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1696478596/jgqtisvgcfsotaptehyp.jpg",
@@ -376,9 +378,15 @@
     "company": "dbt Labs",
     "country": "US",
     "personId": 14166194,
+    "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697216309/tsom6mclwblw0apsloct.jpg",
     "eventId": 433222,
     "created": "2023-10-09T17:47:47.000+00:00",
-    "accountId": 183217
+    "accountId": 183217,
+    "thumbnailSet": {
+      "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/tsom6mclwblw0apsloct.jpg",
+      "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/tsom6mclwblw0apsloct.jpg",
+      "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/tsom6mclwblw0apsloct.jpg"
+    }
   },
   {
     "id": 3031837,
@@ -445,6 +453,7 @@
     "lastname": "Di Bari",
     "title": "Senior Data Engineer",
     "company": "Guild",
+    "country": "US",
     "bio": "Originally from New York City, I went to college in upstate NY for geography and math and then moved Boulder CO for graduate school in Civil Engineering. Having never worked a day in my life as a Civil Engineer, I taught myself how to code and have been a Software Engineer, now Data Engineer for about 8 years. I've been with Guild for the last 3 of those years and am Denver based. In my spare time I stay active - I play softball, tennis and hike and ski. I enjoy cooking, watching too much tv, playing card/ board games and traveling.",
     "personId": 17623586,
     "web": "https://docs.google.com/document/d/1VP1d1UD9uGxI8Lu_gtgrgN9LAMJHPsekCd2yVC6Sp34/edit?usp=sharing",
@@ -563,9 +572,10 @@
   {
     "id": 3086631,
     "firstname": "Adam",
-    "lastname": "Carbone",
+    "lastname": "Carbone ",
     "title": "Data Engineering Lead",
-    "company": "Carsales",
+    "company": "carsales ",
+    "country": "AU",
     "bio": "Adam Carbone is the Data Engineering Lead at carsales.com.au. He has been working in data for 13 years. Having previously worked as a geophysicist, Adam decided to make the move to tech and has been at carsales since 2019. In addition to his role as Data Engineering Lead, Adam recently took on the position of Lead for the Analytics Engineering chapter—a cross-team initiative aligned with carsales' data mesh strategy. Adam's scientific background, combined with his technical expertise, enables him to drive innovation and deliver cutting-edge solutions.",
     "personId": 17810240,
     "web": "https://docs.google.com/presentation/d/1c9K7kgvMBTL6CQQxtvMeHWz9aGpLLQ87/edit?usp=sharing&ouid=101901579487424658433&rtpof=true&sd=true",
@@ -577,7 +587,8 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/yapsvptv0f6h6yfvjfru.jpg",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/yapsvptv0f6h6yfvjfru.jpg",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/yapsvptv0f6h6yfvjfru.jpg"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3152169,
@@ -720,7 +731,7 @@
     "firstname": "Huss",
     "lastname": "Afzal",
     "title": "Data Director",
-    "company": "Deputy",
+    "company": "Deputy ",
     "country": "AU",
     "bio": "Huss Afzal is a data director with a proven track record of delivering results in tech and other industries. He has led the creation of data products that have increased online sales, improved campaign effectiveness, and predicted inventory levels. He has also successfully transitioned businesses to the cloud, created a culture of data-driven decision making, and developed high-performing data teams. Huss is passionate about using data to drive business transformation. He is skilled in a wide range of data technologies, and he is always looking for new ways to use data to improve business performance.",
     "personId": 13846156,
@@ -1075,7 +1086,8 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/b8nz3w9kjo7voezzjtps.png",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/b8nz3w9kjo7voezzjtps.png",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/b8nz3w9kjo7voezzjtps.png"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3076965,
@@ -1180,6 +1192,23 @@
     }
   },
   {
+    "id": 3154287,
+    "firstname": "Travis",
+    "lastname": "Marceau",
+    "title": "Sales Director",
+    "company": "dbt Labs",
+    "personId": 13759216,
+    "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697242452/p6tp8wd6vamcoajqjpkw.png",
+    "eventId": 433222,
+    "created": "2023-10-13T23:26:35.000+00:00",
+    "accountId": 183217,
+    "thumbnailSet": {
+      "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/p6tp8wd6vamcoajqjpkw.png",
+      "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/p6tp8wd6vamcoajqjpkw.png",
+      "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/p6tp8wd6vamcoajqjpkw.png"
+    }
+  },
+  {
     "id": 3121519,
     "firstname": "Danny",
     "lastname": "Lambert",
@@ -1196,6 +1225,23 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/toajchcfv48a7tnztrmt.jpg",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/toajchcfv48a7tnztrmt.jpg",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/toajchcfv48a7tnztrmt.jpg"
+    }
+  },
+  {
+    "id": 3154288,
+    "firstname": "Blake",
+    "lastname": "Leithiser",
+    "title": "Lead Data Engineer",
+    "company": "Tableau Software (a Salesforce Company) ",
+    "personId": 18453078,
+    "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697242478/vvkmbqy0rer6pij2q8yv.png",
+    "eventId": 433222,
+    "created": "2023-10-13T23:27:30.000+00:00",
+    "accountId": 183217,
+    "thumbnailSet": {
+      "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/vvkmbqy0rer6pij2q8yv.png",
+      "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/vvkmbqy0rer6pij2q8yv.png",
+      "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/vvkmbqy0rer6pij2q8yv.png"
     }
   },
   {
@@ -1378,6 +1424,7 @@
     "lastname": "Nguyen",
     "title": "Data Engineer",
     "company": "Sidecar Health",
+    "country": "US",
     "bio": "Originally from Vietnam, Ken started his career in data as an undergraduate neuroscience researcher at UCLA. After discovering the world of data in industry, he joined Dr. Squatch as a Data Engineer where he helped build data processes and best practices for the successful CPG company. Now, he is currently on the Data Engineering team at Sidecar Health, pursuing the mission of making healthcare affordable and accessible for everyone!",
     "personId": 17689420,
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1692638852/fxpbxbeunf5duthptnbi.png",
@@ -1388,14 +1435,15 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/fxpbxbeunf5duthptnbi.png",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/fxpbxbeunf5duthptnbi.png",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/fxpbxbeunf5duthptnbi.png"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3121531,
     "firstname": "Juan Manuel",
     "lastname": "Perafan",
     "title": "Analytics Engineer",
-    "company": "Xebia Data",
+    "company": "Xebia",
     "country": "NL",
     "bio": "Juan's mission is to help data professionals to create reliable production-grade data workflows that are easy to maintain, have been properly tested, and are impeccably documented.\n\nHalf of the time, he teaches analysts how to apply engineering best practices to their workflows. The other half, he helps engineers to get in the shoes of the analysts.",
     "twitterHandle": "jmperafan",
@@ -1595,6 +1643,26 @@
     "prefix": "Mr."
   },
   {
+    "id": 3154310,
+    "firstname": "Tarik",
+    "lastname": "Dwiek",
+    "title": "Head of Technology and Application Partners",
+    "company": "Snowflake",
+    "country": "US",
+    "bio": "Tarik Dwiek is the head of the Snowflake Technology ecosystem and is responsible for the strategic partnerships across Snowflake's technology and application partners.  He has spent over 25 years in the high technology industry, spanning software development, sales, and business development. Prior to Snowflake, Tarik managed strategic partnerships at AWS and EMC, and also spent more than 12 years at EMC selling to enterprise accounts and leading the technology strategy for EMC’s global accounts.",
+    "personId": 2660354,
+    "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697262960/di8pton1wv73buxvbhrj.jpg",
+    "eventId": 433222,
+    "created": "2023-10-14T05:55:36.000+00:00",
+    "accountId": 183217,
+    "thumbnailSet": {
+      "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/di8pton1wv73buxvbhrj.jpg",
+      "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/di8pton1wv73buxvbhrj.jpg",
+      "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/di8pton1wv73buxvbhrj.jpg"
+    },
+    "prefix": "Mr."
+  },
+  {
     "id": 3084679,
     "firstname": "Julia",
     "lastname": "Schottenstein",
@@ -1722,6 +1790,7 @@
     "lastname": "Parmar",
     "title": "AI&ML Senior Solutions Architect",
     "company": "Snowflake",
+    "country": "GB",
     "bio": "Jai Parmar has over two decades of experience building data platforms to many large organisations and recently architected and implemented full end to end data mesh solutions with Snowflake Customers.",
     "personId": 10500996,
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697081837/jlhvkc2x7qfbthtfeycm.jpg",
@@ -1732,7 +1801,8 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/jlhvkc2x7qfbthtfeycm.jpg",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/jlhvkc2x7qfbthtfeycm.jpg",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/jlhvkc2x7qfbthtfeycm.jpg"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3151763,
@@ -2184,9 +2254,12 @@
     "id": 3151777,
     "firstname": "Nick ",
     "lastname": "Erdenberger",
+    "title": "Chief Revenue Officer",
+    "company": "dbt Labs",
     "country": "US",
     "personId": 13938422,
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697144935/disxslmauq0nkg8oizks.jpg",
+    "linkedinProfile": "https://www.linkedin.com/in/nicholaserdenberger",
     "eventId": 433222,
     "created": "2023-10-10T23:50:29.000+00:00",
     "accountId": 183217,
@@ -2258,7 +2331,8 @@
     "firstname": "Darren",
     "lastname": "Ware",
     "title": "Senior Data Engineer",
-    "company": "RMIT University",
+    "company": "RMIT",
+    "country": "AU",
     "bio": "Darren is a Senior Data Engineer at RMIT University. He has worked in education since 2010 and data related roles for the last 7 years. He holds a Master of Analytics and has worked across both public and private universities, facilitating delivery of actionable insights. Darren is a key advocate for clean code principles and promoting best-practices in data modeling at RMIT.",
     "personId": 18251254,
     "web": "https://rmiteduau-my.sharepoint.com/:p:/g/personal/darren_ware_rmit_edu_au/EZR2Q76YzUFIo2veGp932CwBViB0xxkIqrKOtXC83an2EQ?email=S3946421%40student.rmit.edu.au&e=ZVHeyQ",
@@ -2270,7 +2344,8 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/tjlulr6cake59ueoqdkf.png",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/tjlulr6cake59ueoqdkf.png",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/tjlulr6cake59ueoqdkf.png"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3147685,
@@ -2321,6 +2396,27 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/nq4jbjdkct9wriswhipo.png",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/nq4jbjdkct9wriswhipo.png",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/nq4jbjdkct9wriswhipo.png"
+    },
+    "prefix": "Dr."
+  },
+  {
+    "id": 3154343,
+    "firstname": "Greg",
+    "lastname": "Clunies",
+    "title": "Analytics Engineer",
+    "company": "Surfline",
+    "country": "US",
+    "bio": "As an Senior Analytics Engineer at Surfline, Greg Clunies blends his passion for the ocean, wind, and waves with his desire to learn, build, and help teams find solutions to their problems.",
+    "personId": 12242877,
+    "web": "https://docs.google.com/presentation/d/1yRw0KXEcPUKbgHEVjClDHqMH-B01wlderZYRSjUEDeI/edit?usp=sharing",
+    "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1687372888/gcl8vpl1ume5b3zrzpei.png",
+    "eventId": 433222,
+    "created": "2023-10-14T16:20:11.000+00:00",
+    "accountId": 183217,
+    "thumbnailSet": {
+      "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/gcl8vpl1ume5b3zrzpei.png",
+      "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/gcl8vpl1ume5b3zrzpei.png",
+      "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/gcl8vpl1ume5b3zrzpei.png"
     }
   },
   {
@@ -2390,7 +2486,7 @@
     "firstname": "Mary",
     "lastname": "Wleklinski",
     "title": "Senior Director of Revenue Marketing",
-    "company": "mary.wleklinski@dbtlabs.com",
+    "company": "dbt Labs",
     "country": "US",
     "bio": "Mary is our Senior Director of Revenue Marketing at dbt Labs based in San Francisco, California. Before joining the dbt team, she ran the Demand Generation and Marketing Operations functions at Carta where she scaled campaign operations and the entire marketing to sales funnel pipes for the organization. Prior to this Mary held Marketing Operations roles at few high growth startups where she learned how critical data team initiatives are to the health of a go-to-market organization. When not immersed in the world of GTM, Mary can be found sailing San Francisco Bay or the Bahamas.",
     "personId": 13755491,
@@ -3273,6 +3369,7 @@
     "lastname": "Huey",
     "title": "Senior Director, Data and Frontend Engineering",
     "company": "Vida Health",
+    "country": "US",
     "bio": "Trenton is the Senior Director of Data and Frontend Engineering at Vida Health, where he leads the data-powered technology strategy building healthcare optimization engines and generative AI applications. He has 12+ years of experience building data and analytics-driven platforms across industries including automotive, mobile gaming, family safety, and digital healthcare. He was the Analytics Lead for the world’s largest mobile game, Words With Friends, and recently helped family safety membership Life360 grow from Series C to IPO as the Head of Analytics. He also currently advises early stage startups building data and analytics products.",
     "personId": 17622902,
     "web": "https://docs.google.com/presentation/d/1IZ6WAJjwcwoB74NF-FesZVG6mg0ylshPjsO5LdELFS8/edit#slide=id.g2d44fe172a56c26_0",
@@ -3513,6 +3610,7 @@
     "lastname": "Hodson",
     "title": "Director, Data & Analytics",
     "company": "Routable",
+    "country": "US",
     "bio": "Jason is an accomplished consultant with over a decade of experience working with Fortune 50 companies. With a passion for driving business success through data-driven insights, Jason has established a track record of delivering impactful results for clients across a range of industries. In the past three years, Jason has taken on a new challenge as the driving force behind a start-up's analytics program. Leveraging his expertise and insights, he has played a crucial role in shaping the company's direction and driving growth through analytics. Jason holds an undergraduate degree from Ball State University, as well as graduate degrees from the University of Cincinnati and Columbia University in the City of New York. Outside of work, Jason is a devoted husband and father to one daughter, and makes his home in beautiful Portland, OR.",
     "personId": 13840951,
     "web": "https://docs.google.com/presentation/d/112ykiozqTGtxq1oOqoUR-A6G3fs5ADxAWJB80f2DMdg/edit?usp=sharing",
@@ -3524,7 +3622,8 @@
       "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/v37ywwabliilfwcio6i6.png",
       "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/v37ywwabliilfwcio6i6.png",
       "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/v37ywwabliilfwcio6i6.png"
-    }
+    },
+    "prefix": "Mr."
   },
   {
     "id": 3116765,
@@ -3649,25 +3748,6 @@
     }
   },
   {
-    "id": 3070948,
-    "firstname": "Greg",
-    "lastname": "Clunies",
-    "title": "Analytics Engineer",
-    "company": "Surfline",
-    "bio": "As an Analytics Engineer at Surfline, Greg Clunies blends his passion for the ocean, wind, and waves with his desire to learn, build, and help teams find solutions to their problems.",
-    "personId": 17623112,
-    "web": "https://docs.google.com/presentation/d/1yRw0KXEcPUKbgHEVjClDHqMH-B01wlderZYRSjUEDeI/edit#slide=id.g2866b0e5c74_1_10",
-    "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1687372888/gcl8vpl1ume5b3zrzpei.png",
-    "eventId": 433222,
-    "created": "2023-06-16T17:35:14.000+00:00",
-    "accountId": 183217,
-    "thumbnailSet": {
-      "small": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_60,h_60,c_fill,g_face,f_auto,q_auto:best/gcl8vpl1ume5b3zrzpei.png",
-      "medium": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_120,h_120,c_fill,g_face,fl_any_format,q_auto:best/gcl8vpl1ume5b3zrzpei.png",
-      "large": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/gcl8vpl1ume5b3zrzpei.png"
-    }
-  },
-  {
     "id": 3147237,
     "firstname": "Gilberto",
     "lastname": "Hernandez",
@@ -3695,7 +3775,6 @@
     "country": "US",
     "bio": "Former Data Engineer turned TPM @ FanDuel NYC",
     "personId": 15490985,
-    "web": "https://docs.google.com/presentation/d/1Jj9HA-EqGO9WIBBW0ZcglerTYKwyjj1OhNz-gUem2dU/edit#slide=id.g1e616cc0551_0_32",
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1687371891/twt2zprysk96uwzx5hkz.jpg",
     "eventId": 433222,
     "created": "2023-06-16T17:38:20.000+00:00",
@@ -3754,8 +3833,10 @@
     "title": "Vice President, Brand Marketing",
     "company": "dbt Labs",
     "country": "US",
+    "bio": "As Vice President of Brand Marketing, Alyssa Smrekar leads dbt Labs' Strategic Events, Community, Comms, Content and Social Media programs. She has extensive B2B marketing leadership experience, having served in similar roles at Okta and Intercom.",
     "personId": 18290466,
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697134535/t4zm3rwsa5layhkkdvqo.jpg",
+    "linkedinProfile": "https://www.linkedin.com/in/alyssasmrekar/",
     "eventId": 433222,
     "created": "2023-10-09T17:47:30.000+00:00",
     "accountId": 183217,
@@ -3793,7 +3874,9 @@
     "company": "dbt Labs",
     "country": "US",
     "industry": "INFORMATION_TECHNOLOGY_AND_SERVICES",
+    "bio": "Roxi is a Product Manager at dbt Labs working on the Semantic Layer. She joined with Transform acquisition and has been working on the Semantic Layer for the last two and a half years.",
     "personId": 18211627,
+    "web": "https://docs.google.com/presentation/d/1cTfUWp0eoBp41JdWMF6GBwpXpNRNqd2IYDzSqhEC-Lg/edit?usp=sharing",
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1697056468/eyugzevr5hvjfaeczzx2.jpg",
     "eventId": 433222,
     "created": "2023-10-12T14:59:42.000+00:00",
@@ -3968,8 +4051,9 @@
     "title": "SVP  | Senior Director, Data Engineering",
     "company": "Fifth Third Bank",
     "country": "US",
-    "bio": "Ben Rottinghaus serves as senior vice president and Sr. Director, Data Management & Engineering. He is responsible for scaling our data engineering model while maturing the skills of the engineers and focusing on the critical data management capabilities of the organization.  Ben has been in IT at Fifth Third for 15 years with numerous roles focused on data such as building out of the commercial credit reporting environment, leading development and architecture of the Enterprise Data Warehouse, driving the data workstream for bank acquisitions, partnering with data science to deliver a customer recommendation engine, and evolving the Bank’s future data strategy.",
+    "bio": "Ben Rottinghaus, SVP, Sr. Director, Data Management & Engineering",
     "personId": 18260045,
+    "web": "https://1drv.ms/p/s!AjUGS4NfTcGUgd5HU3HsDvMjnIZiSA?e=nhS97u",
     "thumbnailUrl": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/v1695830111/rmvat2e1azssaiz7fvgv.jpg",
     "eventId": 433222,
     "created": "2023-09-27T15:55:15.000+00:00",
