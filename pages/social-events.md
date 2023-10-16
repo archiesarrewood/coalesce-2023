@@ -5,7 +5,7 @@ sources:
 
 # Coalesce 2023 Social Events
 
-_[Add events to this page on GitHub](https://github.com/evidence-dev/coalesce-2023/edit/main/pages/social-events.md)._
+[View on GitHub](https://github.com/evidence-dev/coalesce-2023/blob/main/pages/social-events.md) | [Edit on GitHub](https://github.com/evidence-dev/coalesce-2023/edit/main/pages/social-events.md)
 
 There are various social events during the conference. Some vendor run events require advance signup - follow the links below.
 
