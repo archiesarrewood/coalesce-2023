@@ -34,7 +34,7 @@ WITH country_groups AS (
         count(*) as attendees,
         country, 
         CASE 
-            WHEN COUNT(*) <= 2 THEN 'Other Countries'
+            WHEN COUNT(*) <= 4 THEN 'Other Countries'
             ELSE country 
         END AS country_grouped
     FROM read_json_auto('sources/attendees.json')
@@ -70,6 +70,25 @@ ORDER BY attendees DESC
 
 <DataTable data={attendees_by_company}/>
 
+### Attendees by Title
+
+```sql attendees_by_title
+SELECT 
+    trim(first(title)) as job_title,
+    count(*) as attendees,
+FROM read_json_auto('sources/attendees.json')
+WHERE title IS NOT NULL AND title != '-' AND title != ''
+GROUP by trim(lower(title))
+ORDER BY attendees DESC
+LIMIT 20
+```
+
+<BarChart
+    data={attendees_by_title}
+    x=job_title
+    y=attendees
+    swapXY
+/>
 
 
 
