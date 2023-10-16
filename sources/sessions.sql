@@ -1,6 +1,7 @@
 select *,
 epoch_ms(startdate+startminute*60*1000) as start_datetime,
 epoch_ms(enddate+endminute*60*1000) as end_datetime,
+descriptionHtml as description_html,
 sessions->'$.speakers[0].speakerId' as speaker_1_id,
 sessions->'$.speakers[1].speakerId' as speaker_2_id,
 sessions->'$.speakers[2].speakerId' as speaker_3_id,

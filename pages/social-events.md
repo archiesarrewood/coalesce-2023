@@ -11,8 +11,7 @@ There are various social events during the conference. Some vendor run events re
 
 
 ```sql social_events
-select *,
-'../sessions/' || id as link
+select *
 from ${sessions}
 where contains(title, '🎉') or contains(title, 'party')
 ```
@@ -38,9 +37,9 @@ Sign up: https://learn.metaplane.dev/float-happy-hour
     **{fmt(event.start_datetime, 'ddd dd-mmm - H:MM AM/PM')}**
     
     
-    {#if event.descriptionHtml}
+    {#if event.description_html}
     
-        **Description** {@html event.descriptionHtml}
+        **Description** {@html event.description_html}
     
     {:else}
 

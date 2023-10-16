@@ -23,11 +23,11 @@ const speaker5_name = speakers.filter(speaker => speaker.speaker_id == speaker5_
 
 **Time:** {fmt(session.start_datetime, "dddd dd-mmm HH:mmAM/PM")}
 
-{#if session.descriptionHtml}
+{#if session.description_html}
 
 ## Description
 
-{@html session.descriptionHtml}
+{@html session.description_html}
 
 {/if}
 
