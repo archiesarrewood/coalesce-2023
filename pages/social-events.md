@@ -14,6 +14,14 @@ from ${sessions}
 where contains(title, '🎉') or contains(title, 'party')
 ```
 
+## FLOAT Happy Hour
+
+**Mon 16-Oct 6:30 - 9:30 PM**
+
+Hard Rock Hotel Rooftop
+
+Sign up: https://learn.metaplane.dev/float-happy-hour
+
 {#each social_events as event}
 
     ## {event.title}
@@ -23,7 +31,7 @@ where contains(title, '🎉') or contains(title, 'party')
     
     {#if event.descriptionHtml}
     
-        **Description:** {@html event.descriptionHtml}
+        **Description** {@html event.descriptionHtml}
     
     {:else}
 
