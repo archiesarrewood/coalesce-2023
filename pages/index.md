@@ -13,7 +13,7 @@ Find official 😇 _and unofficial_ 😈 conference info, events to attend, and 
 
 ## About this site
 
-This is an open source site is written in SQL and markdown. 
+This is an open source site, written in SQL and markdown. 
 
 [View on GitHub](https://github.com/evidence-dev/coalesce-2023) | [Edit on GitHub](https://github.com/evidence-dev/coalesce-2023/edit/main/pages/index.md)
 
